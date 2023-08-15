@@ -1,47 +1,69 @@
-const logotext = "JOHN";
+const logotext = "BEN MORT";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Ben Mort",
+    description: "I’m Ben Mort - CTO currently working in Sydney",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Ben Mort",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I lead technology innovation",
+        second: "I develop software solutions",
+        third: "I deliver strategic planning",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Experienced digital strategist dedicated to driving positive change through empowering changemakers.",
+    your_img_url: "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    //your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Summary",
+    aboutme: "Over 12 years experience working in digital strategy and products across a range of organisations, from small bespoke to large corporate environments. Managing local, international and inter-organisational collaborative interdisciplinary teams. Proven performance history in planning and implementation of robust and scalable digital campaigning, organising and communications platforms. A tendency to thrive in self directed and remote working environments while retaining pragmatism and focus on objectives. Propels process improvement to enhance digital operations and software development practices. Brings management excellence with a focus on staff well-being, professional development, and cultivating an equitable and inclusive work culture.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const worktimeline = [
+    {
+        jobtitle: "Chief Technology Officer",
+        where: "Online Progressive Engagement Network (OPEN)",
+        date: "2022 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Digital Products Director",
+        where: "Online Progressive Engagement Network (OPEN)",
+        date: "2020 - 2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Director of Technology",
+        where: "GetUp!",
+        date: "2019 - 2020",
+    },
+    {
+        jobtitle: "Senior Software Developer",
+        where: "GetUp!",
+        date: "2016 - 2019",
+    },
+    {
+        jobtitle: "Senior Software Developer",
+        where: "Flight Centre",
+        date: "2012 - 2016",
+    },
+    {
+        jobtitle: "Chief Technology Officer",
+        where: "HelpAnother",
+        date: "2012 - 2014",
+    },
+    {
+        jobtitle: "Managing Director",
+        where: "Stringpane",
+        date: "2010 - 2012",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "React",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "React Native",
         value: 85,
     },
     {
@@ -49,30 +71,92 @@ const skills = [{
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Ruby/ Rails",
+        value: 70,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Python",
+        value: 65,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Business Development",
+        //description: "",
+        items: [
+          "Strategic and Tactical Planning",
+          "Project Planning and Management",
+          "Business Analysis",
+          "Financial Modelling and Fundraising",
+        ],
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Organisational Governance",
+        //description: "",
+        items: [
+          "Budgetary Planning and Control",
+          "Customer and Vendor Relationship",
+          "Management",
+          "Contract Negotiations",
+          "Multilateral Agreement",
+        ],
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Organisational Management",
+        //description: "",
+        items: [
+          "Migration and Change Management",
+          "Risk Mitigation and Management",
+          "Security and Compliance",
+          "Board Reporting",
+        ],
+    },
+    {
+        title: "Technology",
+        //description: "",
+        items: [
+          "Software Architecture",
+          "Polyglot Programming",
+          "Knowledge of Emergent Digital",
+          "Tactics and Trends",
+          "Performance and Scalability",
+          "Optimisation",
+        ],
+    },
+    {
+        title: "Leadership",
+        //description: "",
+        items: [
+          "Equitable and Inclusive Team Development",
+          "Effective Hiring Processes",
+          "Staff Management",
+          "Team Capacity Management",
+          "Coaching and Mentoring",
+          "Best Practice Agile Methodologies",
+          "Effective Time Management",
+          "Software Development Life Cycle",
+          "Process and Procedures",
+          "Development and Optimisation",
+        ],
+    },
+    {
+        title: "Communication",
+        //description: "",
+        items: [
+          "Advanced Problem Solving",
+          "Planning Documentation",
+          "Client Engagement Management ",
+          "Effective Communication With",
+          "Stakeholders",
+          "Presentation Skills ",
+          "Public Speaking",
+        ],
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
@@ -136,9 +220,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "contact@benmort.me",
+    YOUR_FONE: "+61 481 565 866",
+    description: "If you have any questions, opportunities, or want to connect, let's talk. You can use the contact form below or reach me directly through the provided email address. Looking forward to connecting with you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +231,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/benmort",
+    //facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/benmort/",
+    //twitter: "https://twitter.com",
 };
 export {
     meta,
