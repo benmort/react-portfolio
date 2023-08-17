@@ -18,7 +18,7 @@ const introdata = {
 
 const dataabout = {
     title: "Summary",
-    aboutme: "Over 12 years experience working in digital strategy and products across a range of organisations, from small bespoke to large corporate environments. Managing local, international and inter-organisational collaborative interdisciplinary teams. Proven performance history in planning and implementation of robust and scalable digital campaigning, organising and communications platforms. A tendency to thrive in self directed and remote working environments while retaining pragmatism and focus on objectives. Propels process improvement to enhance digital operations and software development practices. Brings management excellence with a focus on staff well-being, professional development, and cultivating an equitable and inclusive work culture.",
+    aboutme: "Over 13 years experience working in digital strategy and products across a range of organisations, from small bespoke to large corporate environments. Managing local, international and inter-organisational collaborative interdisciplinary teams. Proven performance history in planning and implementation of robust and scalable digital campaigning, organising and communications platforms. A tendency to thrive in self directed and remote working environments while retaining pragmatism and focus on objectives. Propels process improvement to enhance digital operations and software development practices. Brings management excellence with a focus on staff well-being, professional development, and cultivating an equitable and inclusive work culture.",
 };
 const worktimeline = [
     {
@@ -221,13 +221,13 @@ const dataportfolio = [
 
 const contactConfig = {
     YOUR_EMAIL: "contact@benmort.me",
-    YOUR_FONE: "+61 481 565 866",
+    YOUR_FONE: "+61 483 944 614",
     description: "If you have any questions, opportunities, or want to connect, let's talk. You can use the contact form below or reach me directly through the provided email address. Looking forward to connecting with you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_iet5oxp",
+    YOUR_TEMPLATE_ID: "template_5j5an2p",
+    YOUR_USER_ID: "SHnq6FT6jjcyQSEmy",
 };
 
 const socialprofils = {
