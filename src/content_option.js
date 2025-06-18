@@ -11,20 +11,31 @@ const introdata = {
         second: "I develop software solutions",
         third: "I deliver strategic planning",
     },
-    description: "Experienced digital strategist dedicated to driving positive change through empowering changemakers.",
+    description: "Experienced digital strategist with a track record of driving positive social, political, and environmental change by empowering changemakers.",
     your_img_url: "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     //your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "Summary",
-    aboutme: "Over 13 years experience working in digital strategy and products across a range of organisations, from small bespoke to large corporate environments. Managing local, international and inter-organisational collaborative interdisciplinary teams. Proven performance history in planning and implementation of robust and scalable digital campaigning, organising and communications platforms. A tendency to thrive in self directed and remote working environments while retaining pragmatism and focus on objectives. Propels process improvement to enhance digital operations and software development practices. Brings management excellence with a focus on staff well-being, professional development, and cultivating an equitable and inclusive work culture.",
+    aboutme: "Digital executive with over 15 years of experience delivering high-impact technology strategy, digital infrastructure, and campaign tools for mission-driven organisations. Proven leader of distributed, cross-functional teams—driving scalable innovation, political and social impact, and organisational change across progressive movements. Skilled in executive leadership, product direction, software architecture, and data-driven campaigning. Committed to cultivating strong, equitable, and inclusive work cultures, with a leadership style grounded in staff wellbeing, professional development, and collaborative excellence.",
+    profile_img_url: "/profile.jpeg",
 };
 const worktimeline = [
     {
+        jobtitle: "Political Technology Specialist",
+        where: "Common Threads",
+        date: "2025",
+    },
+    {
+        jobtitle: "Political Technology Specialist",
+        where: "Climate 200",
+        date: "2025",
+    },
+    {
         jobtitle: "Chief Technology Officer",
         where: "Online Progressive Engagement Network (OPEN)",
-        date: "2022 - Present",
+        date: "2022 - 2025",
     },
     {
         jobtitle: "Digital Products Director",
@@ -221,7 +232,7 @@ const dataportfolio = [
 
 const contactConfig = {
     YOUR_EMAIL: "contact@benmort.me",
-    YOUR_FONE: "+61 483 944 614",
+    YOUR_FONE: "+61 481 565 866",
     description: "If you have any questions, opportunities, or want to connect, let's talk. You can use the contact form below or reach me directly through the provided email address. Looking forward to connecting with you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/

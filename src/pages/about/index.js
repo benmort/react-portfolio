@@ -27,10 +27,21 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+            <div
+              className="h_bg-image order-1 order-lg-2 h-400 "
+              style={{
+                backgroundImage: `url(${dataabout.profile_img_url})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "contain",
+                height: "400px",
+                width: "100%",
+              }}
+            ></div>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
+              <h3 className="color_sec py-4">{dataabout.title}</h3>
               <p>{dataabout.aboutme}</p>
             </div>
           </Col>
