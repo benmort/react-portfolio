@@ -1,38 +1,79 @@
-### Description
+# Ben Mort Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+A modern, multi-page portfolio site for developers and technology leaders, built with React.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+---
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+## Live Preview
 
-### Features
+[benmort.me](https://benmort.me)
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+---
 
-### Setup
+## Features
 
-Get the code
+- **Fully Responsive** design
+- **Multi-Page Layout**: Home, About, Portfolio, Contact
+- **Animated Transitions** between pages
+- **Typewriter animated intro**
+- **Theme Toggle** (light/dark mode)
+- **Contact Form** powered by EmailJS
+- **Social Media Links** (GitHub, LinkedIn)
+- **Easy Content Management** via a single config file
+- **React-Bootstrap** for layout and styling
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+---
 
-<pre>yarn install</pre>
+## Pages
 
+- **Home**: Animated introduction, quick links to portfolio, about, and contact
+- **About**: Professional summary, work timeline, services, and skills
+- **Portfolio**: Gallery of projects (images and descriptions)
+- **Contact**: Contact form (EmailJS) and direct contact details
 
-Start the server
+---
 
-<pre>yarn start</pre>
+## Quick Start
 
-### More
+Clone the repository:
 
-Modify pages content in  `src/content_option.js`.
+```sh
+git clone https://github.com/benmort/react-portfolio.git
+cd react-portfolio
+```
 
-### Thanks
+Install dependencies:
 
-If you like this portfolio template don't forget give it a ⭐ 
+```sh
+yarn install
+```
+
+Start the development server:
+
+```sh
+yarn start
+```
+
+---
+
+## Content Management
+
+Edit your profile, skills, work history, services, and portfolio items in `src/content_option.js`.
+
+---
+
+## Contact
+
+The contact form uses [EmailJS](https://www.emailjs.com/) for direct email delivery. Configure your service and template IDs in `src/content_option.js`.
+
+---
+
+## Inspiration
+
+This project was inspired by [ubaimutl/react-portfolio](https://github.com/ubaimutl/react-portfolio.git).
+
+---
+
+## License
+
+MIT
